@@ -1,23 +1,21 @@
 import logo from './logo.svg';
 import './App.css';
+//  if we import the export default Greet file on Components folder.and also we change the componet name {Ex:Greet to MyGreet}
+ import MyGreet from './Components/Greet'
+//  import {Greet} from './Components/Greet' // Named Export define as same name of the components 
+import Welcome from './Components/Welcome'
+// its called stateless functional components
+// import Hello from './Components/Hello'
+import Message from './Components/Message'
+// import Message from './Components/Message';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+        {/* <MyGreet name = "shyjan" age = "45"/>
+        <MyGreet name = "harsha"/> */}
+        <Message />
+        {/* <Hello />  */}
     </div>
   );
 }
