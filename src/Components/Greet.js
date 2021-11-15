@@ -7,13 +7,13 @@ import Hello from './Hello'
 //     return <h1>Hello Shyjan</h1>
 // } // this function called as export named function
 
-function Greet(props){
-    console.log(props, "Greeet")
+function Greet({name, age}){
+    // console.log(props, "Greeet")
         // Function coponents always return one html tag
         return(
             <>
-                <h1>Hello {props.name}</h1>
-                <Hello my_age = {props.age} />
+                <h1>Hello {name}</h1>
+                <Hello my_age = {age} />
             </>
         )
     }
