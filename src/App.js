@@ -35,6 +35,7 @@ import CallBackRef from './Components/CallBackRef';
 import FocusInput from './Components/FocusInput';
 import FRParentInput from './Components/FRParentInput';
 import PortalDemo from './Components/PortalDemo';
+import GitComponent from './Components/GitComponent';
 // import Message from './Components/Message';
 
 function App() {
@@ -64,6 +65,7 @@ function App() {
       {/* <FocusInput /> */}
       {/* <FRParentInput /> */}
       <PortalDemo />
+      <GitComponent />
         {/* <MyGreet name = "shyjan" age = "45"/> */}
         {/* <MyGreet name = "harsha"/> */}
         {/* <Message /> */}
