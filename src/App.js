@@ -65,7 +65,7 @@ function App() {
       {/* <FocusInput /> */}
       {/* <FRParentInput /> */}
       <PortalDemo />
-      <GitComponent />
+      {/* <GitComponent /> */}
         {/* <MyGreet name = "shyjan" age = "45"/> */}
         {/* <MyGreet name = "harsha"/> */}
         {/* <Message /> */}
